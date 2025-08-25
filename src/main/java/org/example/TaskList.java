@@ -40,7 +40,7 @@ public void addTask(T task){
 
     //Sort tasks by due date.
     public List<T> sortTaskByDueDate(){
-    return taskList.stream().sorted(Comparator.comparing(Task::getDuedate)).collect(Collectors.toList());
+    return taskList.stream().sorted(Comparator.comparing(task -> task.getDuedate())).collect(Collectors.toList());
     }
 
     // Get tasks that are due today.

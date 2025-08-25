@@ -24,7 +24,7 @@ public class Main {
 
 
 
-        System.out.println('\n'+"Filtrer efter keyword i beskrivelse (skildpadder)"+taskList.filterTask("skildpadder")+'\n');
+        System.out.println('\n'+"git Filtrer efter keyword i beskrivelse (skildpadder)"+taskList.filterTask("skildpadder")+'\n');
 
         System.out.println("Sorter efter dueDate: "+taskList.sortTaskByDueDate()+ '\n');
 
